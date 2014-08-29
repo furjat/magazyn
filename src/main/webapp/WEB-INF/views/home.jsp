@@ -69,8 +69,8 @@
         <img border="0" src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" alt="a" width="304" height="228" position="right">
         <ul position="center">
             <li><a href="/magazyn/magazyn">Magazyn</a></li>
-            <li><a href="kontakt">Kontakt</a></li>
-            <li><a href="#ciekawostki">Ciekawostki</a></li>
+            <li><a href="/magazyn/kontakt">Kontakt</a></li>
+            <li><a href="/magazyn/ciekawostki">Ciekawostki</a></li>
             <li><a href="#about">About</a></li>
         </ul>
 </body>
