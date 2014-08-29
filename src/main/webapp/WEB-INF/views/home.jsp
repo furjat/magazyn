@@ -45,8 +45,9 @@
                 background-color: burlywood;
                 text-align: center;
                 padding: 4px;
-                text-decoration: none;
+                text-decoration: blink;
                 text-transform: uppercase;
+                font-style:italic;
             }
 
             a:hover, a:active {

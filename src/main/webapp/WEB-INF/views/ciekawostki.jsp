@@ -8,6 +8,17 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <style>
+            body {
+                background:url(http://www.tapeteos.pl/data/media/725/big/piwo_budweiser_1920x1200_007.jpg) no-repeat center center fixed;
+                background-size: cover;
+                -webkit-background-size: cover;
+                -moz-background-size: cover;
+                -o-background-size: cover;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
         <title>Kontakt</title>
     </head>
