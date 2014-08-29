@@ -38,5 +38,13 @@
             <input type="submit" value="Zmie&#324;" />
             <form:hidden path="id"/>
         </form:form>
+            <ul>
+            <li>
+                <a href="\magazyn">Strona glowna</a>
+            </li>
+            <li>
+                <a href="\magazyn\magazyn">Magazyn</a>
+            </li>
+        </ul>
     </body>
 </html>

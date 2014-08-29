@@ -30,19 +30,18 @@
                 padding: 0;
                 overflow: hidden;
                 
-              
-             
             }
 
             li {
                 float: left;
+            
             }
 
             a:link, a:visited {
                 display: block;
                 width: 120px;
                 font-weight: bold;
-                color: #FFFFFF;
+                color: maroon;
                 background-color: burlywood;
                 text-align: center;
                 padding: 4px;
@@ -68,9 +67,9 @@
             <div><span style="font-style:italic;font-size:80px;color:gold;">"Chmielnicki"</span></div>
         </h1>
         <img border="0" src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" alt="a" width="304" height="228" position="right">
-        <ul align="center">
+        <ul position="center">
             <li><a href="/magazyn/magazyn">Magazyn</a></li>
-            <li><a href="/magazyn/kontakt">Kontakt</a></li>
+            <li><a href="kontakt">Kontakt</a></li>
             <li><a href="#ciekawostki">Ciekawostki</a></li>
             <li><a href="#about">About</a></li>
         </ul>
