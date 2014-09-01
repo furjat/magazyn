@@ -23,11 +23,16 @@
                 font-size: 20px;
             }
             table, td, th {
-                border: 2px solid green;
+                border: 2px solid brown;
+                background: khaki;
 
             }
+            table {
+                position: relative;
+                left : 50px;
+            }
             td {
-                color: white;
+                color: brown;
             }
 
             th {
@@ -39,6 +44,8 @@
                 bottom: 0px;
 
             }
+            form { position: relative;
+                   left : 50px; }
 
 
         </style>
@@ -48,7 +55,7 @@
     <body>
 
         <form:form modelAttribute="towar">
-            Nazwa: <form:input path="nazwa" />
+            Nazwa: <form:input path="nazwa" position="relative" left="45px"/>
             <br>
             Kod: <form:input path="opis" />
             <br>
@@ -69,6 +76,7 @@
 
 
         </form:form>
+        <br>
 
         <form action="magazyn" method="get">
             <input type="text" value=".*" name="wyrazenie" ><br> 
@@ -80,8 +88,9 @@
             <input type="submit" name="filter" value="Filtruj" >
 
         </form>
+        <br>
 
-        <table align="center" width="90%" height="90%">
+        <table position="left" width="60%" height="90%">
             <tr>
                 <th><a href="magazyn?sort=0">Id</a></th>
                 <th><a href="magazyn?sort=1">Nazwa</a></th>
@@ -108,7 +117,7 @@
         </table>
         <ul>
             <li>
-                <a href="\magazyn">Strona glowna</a>
+                <a href="\magazyn" padding-left="50px">Strona glowna</a>
             </li>
         </ul>
     <marquee behavior="scroll" direction="right"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>

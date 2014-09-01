@@ -17,6 +17,9 @@
             h1 {
                 color: orange;
                 text-align: center;
+                background: brown;
+                background-position: center;
+                background-size: contain;
             }
 
             p {
@@ -26,8 +29,8 @@
 
             ul {
                 list-style-type: circle;
-                margin: 0;
-                padding: 0;
+                position: relative; 
+                left: 350px;
                 overflow: hidden;
                 
             }
@@ -68,7 +71,7 @@
             <div><span style="font-style:italic;font-size:80px;color:gold;">"Chmielnicki"</span></div>
         </h1>
         <img border="0" src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" alt="a" width="304" height="228" position="right">
-        <ul position="center">
+        <ul>
             <li><a href="/magazyn/magazyn">Magazyn</a></li>
             <li><a href="/magazyn/kontakt">Kontakt</a></li>
             <li><a href="/magazyn/ciekawostki">Ciekawostki</a></li>
