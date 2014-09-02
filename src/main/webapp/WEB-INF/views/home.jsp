@@ -15,11 +15,14 @@
             }
 
             h1 {
-                color: orange;
+                display: block;
+                width: 632px;
                 text-align: center;
                 background: black;
-                background-position: center;
-                background-size: contain;
+                position: absolute;
+                left: 550px;
+                top: 120px;
+
             }
 
             p {
@@ -29,20 +32,21 @@
 
             ul {
                 list-style-type: circle;
-                position: relative; 
-                left: 350px;
                 overflow: hidden;
-                
+                position: absolute;
+                left: 510px;
+                top: 210px;
+
             }
 
             li {
                 float: left;
-            
+
             }
 
             a:link, a:visited {
                 display: block;
-                width: 120px;
+                width: 150px;
                 font-weight: bold;
                 color: black;
                 background-color: gold;
@@ -56,26 +60,25 @@
             a:hover, a:active {
                 background-color: gold;
             }
-            img {
-                position: absolute;
-                right: 0px;
+            marquee {
+                position: relative;
                 top: 0px;
-                z-index: -1;
             }
 
         </style>
-        <title>Home</title>
+        <title>Home "Chmielnicki"</title>
     </head>
     <body>
+        <marquee behavior="scroll" direction="left"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>
+        <br><br>
         <h1>
-            <div><span style="font-style:italic;font-size:80px;color:gold;">"Chmielnicki"</span></div>
+            <span style="font-style:italic;font-size:80px;color:gold;">"Chmielnicki"</span>
         </h1>
-        <img border="0" src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" alt="a" width="304" height="228" position="right">
         <ul>
             <li><a href="/magazyn/magazyn">Magazyn</a></li>
-            <li><a href="/magazyn/kontakt">Kontakt</a></li>
             <li><a href="/magazyn/ciekawostki">Ciekawostki</a></li>
-            <li><a href="#about">About</a></li>
+            <li><a href="/magazyn/fest">Festiwale 2014</a></li>
+            <li><a href="/magazyn/kontakt">Kontakt</a></li>
         </ul>
-</body>
+    </body>
 </html>

@@ -50,7 +50,7 @@
 
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-        <title>Insert title here</title>
+        <title>Magazyn</title>
     </head>
     <body>
 
@@ -106,7 +106,7 @@
                     <td><c:out value="${towar.id+1}" /></td>
                     <td><c:out value="${towar.nazwa}" /></td>
                     <td><c:out value="${towar.opis}" /></td>
-                    <td><c:out value="${towar.cena}" /> zl</td>
+                    <td><c:out value="${towar.cena}" /> z&#322</td>
                     <td><c:out value="${towar.ilosc}" /></td>
                     <td><c:out value="${towar.kategoria}" /></td>
                     <td><a href="magazyn?id=${towar.id}&action=delete">Usu&#324;</a></td>

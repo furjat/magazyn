@@ -89,4 +89,8 @@ public class MagazynController {
     public String ciekawostki() {
         return "ciekawostki";
     }
+    @RequestMapping(value = "/fest", method = RequestMethod.GET)
+    public String fest() {
+        return "fest";
+    }
 }
