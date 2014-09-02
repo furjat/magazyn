@@ -12,6 +12,25 @@
                 margin: 0;
                 padding: 0;
             }
+            /* unvisited link */
+            a:link {
+                color: red;
+            }
+
+            /* visited link */
+            a:visited {
+                color: red;
+            }
+
+            /* mouse over link */
+            a:hover {
+                color: chocolate;
+            }
+
+            /* selected link */
+            a:active {
+                color: darkorange;
+            }
 
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
@@ -26,21 +45,25 @@
             <br>
             Cena: <form:input path="cena" />
             <br>
-            Ilosc: <form:input path="ilosc" />
+            Ilo&#347;&#263: <form:input path="ilosc" />
             <br>
             Kategoria: <select name="kategoria" >
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
+                <option value="Pils czeski">Pils czeski</option>
+                <option value="Pils niemiecki">Pils niemiecki</option>
+                <option value="Lager jasny">Lager jasny</option>
+                <option value="Lager ciemny">Lager ciemny</option>
+                <option value="Pszeniczne">Pszeniczne</option>
+                <option value="India Pale Ale">India Pale Ale</option>
+                <option value="Beldian Strong Ale">Beldian Strong Ale</option>
+                <option value="Pal Ale">Pal Ale</option>
             </select>
             <br>
             <input type="submit" value="Zmie&#324;" />
             <form:hidden path="id"/>
         </form:form>
-            <ul>
+        <ul>
             <li>
-                <a href="\magazyn">Strona glowna</a>
+                <a href="\magazyn">Strona g&#322;&#243;wna</a>
             </li>
             <li>
                 <a href="\magazyn\magazyn">Magazyn</a>

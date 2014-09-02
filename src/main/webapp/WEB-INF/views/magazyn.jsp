@@ -47,7 +47,7 @@
 
             }
             form { position: relative;
-                   left : 50px;
+                   left : 20px;
                    top: 10px;
                    text-decoration-color: black;
             }
@@ -56,14 +56,13 @@
                 border-style:solid;
                 border-top-width:9px;
                 width:30%;
-                margin-top: 20px;
-                margin-left: 20px;
+                margin: 20px;
 
 
             }
             /* unvisited link */
             a:link {
-                color: black;
+                color: red;
             }
 
             /* visited link */
@@ -101,13 +100,17 @@
                 <br>
                 Cena:  <form:input path="cena" />
                 <br>
-                Ilosc: <form:input path="ilosc" />
+                Ilo&#347;&#263: <form:input path="ilosc" />
                 <br>
                 Kategoria: <select name="kategoria" >
-                    <option value="volvo">Volvo</option>
-                    <option value="saab">Saab</option>
-                    <option value="mercedes">Mercedes</option>
-                    <option value="audi">Audi</option>
+                    <option value="Pils czeski">Pils czeski</option>
+                    <option value="Pils niemiecki">Pils niemiecki</option>
+                    <option value="Lager jasny">Lager jasny</option>
+                    <option value="Lager ciemny">Lager ciemny</option>
+                    <option value="Pszeniczne">Pszeniczne</option>
+                    <option value="India Pale Ale">India Pale Ale</option>
+                    <option value="Beldian Strong Ale">Beldian Strong Ale</option>
+                    <option value="Pal Ale">Pal Ale</option>
                 </select>
                 <br>
                 <input type="submit" value="Dodaj" formaction="magazyn"
@@ -138,7 +141,7 @@
                 <th><a href="magazyn?sort=1">Nazwa</a></th>
                 <th><a href="magazyn?sort=2">Kod</a></th>
                 <th><a href="magazyn?sort=3">Cena</a></th>
-                <th><a href="magazyn?sort=4">Ilosc</a></th>
+                <th><a href="magazyn?sort=4">Ilo&#347;&#263;</a></th>
                 <th><a href="magazyn?sort=5">Kategoria</a></th>
                 <th>Usu&#324;</th>
                 <th>Zmie&#324;</th>
@@ -159,7 +162,7 @@
         </table>
         <ul>
             <li>
-                <a href="\magazyn" padding-left="50px">Strona glowna</a>
+                <a href="\magazyn" padding-left="50px">Strona g&#322;&#243;wna</a>
             </li>
         </ul>
     <marquee behavior="scroll" direction="right"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>
