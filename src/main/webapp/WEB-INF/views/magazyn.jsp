@@ -32,7 +32,7 @@
                 position: relative;
                 left : 20px;
             }
-            td {
+            td, h {
                 color: black;
             }
 
@@ -63,23 +63,24 @@
             }
             /* unvisited link */
             a:link {
-                color: gold;
+                color: black;
             }
 
             /* visited link */
             a:visited {
-                color: goldenrod;
+                color: red;
             }
 
             /* mouse over link */
             a:hover {
-                color: red;
+                color: chocolate;
             }
 
             /* selected link */
             a:active {
-                color: darkred;
+                color: darkorange;
             }
+           
             
             
 
@@ -158,8 +159,7 @@
         </table>
         <ul>
             <li>
-                <a href="\magazyn" padding-left="50px" style="background-color: black" style=" text-decoration: blink" style="color: gold "
-                   style=" font-variant-alternates: ">Strona glowna</a>
+                <a href="\magazyn" padding-left="50px">Strona glowna</a>
             </li>
         </ul>
     <marquee behavior="scroll" direction="right"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>
