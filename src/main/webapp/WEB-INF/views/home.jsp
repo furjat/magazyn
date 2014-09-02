@@ -42,6 +42,8 @@
             li {
                 float: left;
 
+            
+
             }
 
             a:link, a:visited {
@@ -58,7 +60,7 @@
             }
 
             a:hover, a:active {
-                background-color: gold;
+                background-color: goldenrod;
             }
             marquee {
                 position: relative;
@@ -66,19 +68,19 @@
             }
 
         </style>
-        <title>Home "Chmielnicki"</title>
+        <title>"Chmielnicki"</title>
     </head>
     <body>
-        <marquee behavior="scroll" direction="left"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>
-        <br><br>
-        <h1>
-            <span style="font-style:italic;font-size:80px;color:gold;">"Chmielnicki"</span>
-        </h1>
-        <ul>
-            <li><a href="/magazyn/magazyn">Magazyn</a></li>
-            <li><a href="/magazyn/ciekawostki">Ciekawostki</a></li>
-            <li><a href="/magazyn/fest">Festiwale 2014</a></li>
-            <li><a href="/magazyn/kontakt">Kontakt</a></li>
-        </ul>
-    </body>
+    <marquee behavior="scroll" direction="left"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>
+    <br><br>
+    <h1>
+        <span style="font-style:italic;font-size:80px;color:gold;">"Chmielnicki"</span>
+    </h1>
+    <ul>
+        <li><a href="/magazyn/magazyn">Magazyn</a></li>
+        <li><a href="/magazyn/ciekawostki">Ciekawostki</a></li>
+        <li><a href="/magazyn/fest">Festiwale 2014</a></li>
+        <li><a href="/magazyn/kontakt">Kontakt</a></li>
+    </ul>
+</body>
 </html>

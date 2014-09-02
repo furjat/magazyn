@@ -23,29 +23,67 @@
                 font-size: 20px;
             }
             table, td, th {
-                border: 2px solid brown;
-                background: khaki;
+                border: 1px solid black;
+                border-collapse: separate;
+
 
             }
             table {
                 position: relative;
-                left : 50px;
+                left : 20px;
             }
             td {
-                color: darkred;
+                color: black;
             }
 
             th {
-                background-color: burlywood;
-                color: black;
+                background-color: black;
+                color: gold;
+
             }
             marquee {
-                position: relative;
+                position: inherit;
                 bottom: 0px;
 
             }
             form { position: relative;
-                   left : 50px; }
+                   left : 50px;
+                   top: 10px;
+                   text-decoration-color: black;
+            }
+            div {
+                border: 1px solid black;
+                border-style:solid;
+                border-top-width:9px;
+                width:30%;
+                margin-top: 20px;
+                margin-left: 20px;
+
+
+            }
+            /* unvisited link */
+            a:link {
+                color: gold;
+            }
+
+            /* visited link */
+            a:visited {
+                color: goldenrod;
+            }
+
+            /* mouse over link */
+            a:hover {
+                color: red;
+            }
+
+            /* selected link */
+            a:active {
+                color: darkred;
+            }
+            
+            
+
+
 
 
         </style>
@@ -53,46 +91,49 @@
         <title>Magazyn</title>
     </head>
     <body>
-
-        <form:form modelAttribute="towar">
-            Nazwa: <form:input path="nazwa" position="relative" left="45px"/>
-            <br>
-            Kod: <form:input path="opis" />
-            <br>
-            Cena: <form:input path="cena" />
-            <br>
-            Ilosc: <form:input path="ilosc" />
-            <br>
-            Kategoria: <select name="kategoria" >
-                <option value="volvo">Volvo</option>
-                <option value="saab">Saab</option>
-                <option value="mercedes">Mercedes</option>
-                <option value="audi">Audi</option>
-            </select>
-            <br>
-            <input type="submit" value="Dodaj" formaction="magazyn"
-                   formmethod="post" />
-
-
+        <div>
+            <form:form modelAttribute="towar">
+                <h> Dodaj produkt:</h><br>
+                Nazwa: <form:input path="nazwa" />
+                <br>
+                Kod:   <form:input path="opis" />
+                <br>
+                Cena:  <form:input path="cena" />
+                <br>
+                Ilosc: <form:input path="ilosc" />
+                <br>
+                Kategoria: <select name="kategoria" >
+                    <option value="volvo">Volvo</option>
+                    <option value="saab">Saab</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                </select>
+                <br>
+                <input type="submit" value="Dodaj" formaction="magazyn"
+                       formmethod="post" text-decoration-color="gold" />
+            </div>
 
         </form:form>
         <br>
+        <div>
+            <form action="magazyn" method="get">
+                <h>Wybierz kategorie filtrowania:</h>
+                <select name="kategoria">
+                    <option value="1" >Nazwa</option>
+                    <option value="2" >Kod</option>
+                    <option value="5" >Kategoria</option>
+                </select><br>
+                <h>Wprowadz szukana fraze:</h>
+                <input type="text" value=".*" name="wyrazenie" ><br>
+                <input type="submit" name="filter" value="Filtruj" >
 
-        <form action="magazyn" method="get">
-            <input type="text" value=".*" name="wyrazenie" ><br> 
-            <select name="kategoria">
-                <option value="1" >Nazwa</option>
-                <option value="2" >Kod</option>
-                <option value="5" >Kategoria</option>
-            </select><br>
-            <input type="submit" name="filter" value="Filtruj" >
-
-        </form>
+            </form>
+        </div>
         <br>
 
         <table position="left" width="60%" height="90%">
             <tr>
-                <th><a href="magazyn?sort=0">Id</a></th>
+                <!--                <th><a href="magazyn?sort=0">Id</a></th>-->
                 <th><a href="magazyn?sort=1">Nazwa</a></th>
                 <th><a href="magazyn?sort=2">Kod</a></th>
                 <th><a href="magazyn?sort=3">Cena</a></th>
@@ -103,7 +144,7 @@
             </tr>
             <c:forEach var="towar" items="${magazyn}">
                 <tr>
-                    <td><c:out value="${towar.id+1}" /></td>
+    <!--                    <td><c:out value="${towar.id+1}" /></td>-->
                     <td><c:out value="${towar.nazwa}" /></td>
                     <td><c:out value="${towar.opis}" /></td>
                     <td><c:out value="${towar.cena}" /> z&#322</td>
@@ -117,7 +158,8 @@
         </table>
         <ul>
             <li>
-                <a href="\magazyn" padding-left="50px">Strona glowna</a>
+                <a href="\magazyn" padding-left="50px" style="background-color: black" style=" text-decoration: blink" style="color: gold "
+                   style=" font-variant-alternates: ">Strona glowna</a>
             </li>
         </ul>
     <marquee behavior="scroll" direction="right"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>

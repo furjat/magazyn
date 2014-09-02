@@ -18,9 +18,10 @@
                 margin: 0;
                 padding: 0;
             }
+            
         </style>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1250">
-        <title>Kontakt</title>
+        <title>Ciekawostki</title>
     </head>
     <body>
         <h1>Hello World!</h1>
