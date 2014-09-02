@@ -17,7 +17,7 @@
             h1 {
                 color: orange;
                 text-align: center;
-                background: brown;
+                background: black;
                 background-position: center;
                 background-size: contain;
             }
@@ -44,8 +44,8 @@
                 display: block;
                 width: 120px;
                 font-weight: bold;
-                color: maroon;
-                background-color: burlywood;
+                color: black;
+                background-color: gold;
                 text-align: center;
                 padding: 4px;
                 text-decoration: blink;

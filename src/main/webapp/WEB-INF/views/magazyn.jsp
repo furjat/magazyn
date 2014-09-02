@@ -32,7 +32,7 @@
                 left : 50px;
             }
             td {
-                color: brown;
+                color: darkred;
             }
 
             th {
@@ -106,7 +106,7 @@
                     <td><c:out value="${towar.id+1}" /></td>
                     <td><c:out value="${towar.nazwa}" /></td>
                     <td><c:out value="${towar.opis}" /></td>
-                    <td><c:out value="${towar.cena}" /></td>
+                    <td><c:out value="${towar.cena}" /> zl</td>
                     <td><c:out value="${towar.ilosc}" /></td>
                     <td><c:out value="${towar.kategoria}" /></td>
                     <td><a href="magazyn?id=${towar.id}&action=delete">Usu&#324;</a></td>
