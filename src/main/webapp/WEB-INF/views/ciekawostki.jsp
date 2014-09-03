@@ -114,6 +114,7 @@
             <li>
                 <a href="\magazyn">Strona g&#322;&#243;wna</a>
             </li>
+            <li><a href="/magazyn/magazyn">Magazyn</a></li>
         </ul>
     <marquee behavior="scroll" direction="right"><img src="http://www.fajnygift.pl/wp-content/uploads/2011/11/piwo-gif.gif" width="100" height="100" alt="smile"/></marquee>
 </body>

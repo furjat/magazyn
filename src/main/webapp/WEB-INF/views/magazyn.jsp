@@ -107,7 +107,7 @@
                     <option value="Lager ciemny">Lager ciemny</option>
                     <option value="Pszeniczne">Pszeniczne</option>
                     <option value="India Pale Ale">India Pale Ale</option>
-                    <option value="Beldian Strong Ale">Beldian Strong Ale</option>
+                    <option value="Belgian Strong Ale">Belgian Strong Ale</option>
                     <option value="Pal Ale">Pal Ale</option>
                 </select>
                 <br>
