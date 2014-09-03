@@ -46,16 +46,14 @@
                 bottom: 0px;
 
             }
-            form { position: relative;
-                   left : 20px;
-                   top: 10px;
+            form { margin: 20px;
                    text-decoration-color: black;
             }
             div {
                 border: 1px solid black;
                 border-style:solid;
                 border-top-width:9px;
-                width:30%;
+                width:35%;
                 margin: 20px;
 
 
@@ -118,7 +116,7 @@
             </div>
 
         </form:form>
-        <br>
+        
         <div>
             <form action="magazyn" method="get">
                 <h>Wybierz kategorie filtrowania:</h>
